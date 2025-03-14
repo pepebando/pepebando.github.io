@@ -1,7 +1,60 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+import { Card, CardContent } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Search, Home, Library } from "lucide-react";
+
+export default function SpotifyClone() {
+  return (
+    <div className="flex h-screen bg-black text-white">
+      {/* Sidebar */}
+      <aside className="w-64 p-4 bg-gray-900 flex flex-col">
+        <div className="flex items-center space-x-2 mb-4">
+          <Home className="w-6 h-6" />
+          <span>Inicio</span>
+        </div>
+        <div className="flex items-center space-x-2 mb-4">
+          <Search className="w-6 h-6" />
+          <span>Buscar</span>
+        </div>
+        <div className="flex items-center space-x-2">
+          <Library className="w-6 h-6" />
+          <span>Tu Biblioteca</span>
+        </div>
+        <div className="mt-6">
+          <h2 className="text-lg font-semibold">Playlists</h2>
+          <ul className="mt-2 space-y-2">
+            <li className="cursor-pointer hover:text-gray-400">Tus me gusta</li>
+            <li className="cursor-pointer hover:text-gray-400">DJ</li>
+            <li className="cursor-pointer hover:text-gray-400">This is deadmau5</li>
+          </ul>
+        </div>
+      </aside>
+      
+      {/* Main Content */}
+      <main className="flex-1 p-6 overflow-auto">
+        <div className="flex justify-between">
+          <h1 className="text-2xl font-bold">¡Es viernes de lanzamientos!</h1>
+          <Input className="w-64" placeholder="¿Qué quieres reproducir?" />
+        </div>
+        <div className="grid grid-cols-4 gap-4 mt-6">
+          {[1, 2, 3, 4].map((item) => (
+            <Card key={item} className="bg-gray-800 p-4 cursor-pointer">
+              <CardContent>
+                <div className="h-40 bg-gray-700 rounded-lg"></div>
+                <p className="mt-2">Canción {item}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </main>
+      
+      {/* Now Playing Bar */}
+      <footer className="w-full p-4 bg-gray-800 fixed bottom-0 flex items-center justify-between">
+        <div>
+          <p className="text-sm">Desenfocao' - Rauw Alejandro</p>
+        </div>
+        <Button variant="outline">Play</Button>
+      </footer>
+    </div>
+  );
+}
