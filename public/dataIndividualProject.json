@@ -139,5 +139,45 @@
     { "src": "/imgs/mambo/5.png", "alt": "ImgPlaceholder","type":"imagen" },
     { "src": "/imgs/mambo/6.png", "alt": "ImgPlaceholder","type":"imagen" }
 ]
+},
+{
+    "id": 5,
+    "image": "/imgs/cocacan/2.png",
+    
+        "description": [
+            "<b>Interactive Custom Coca-Cola Can - AI & Unreal Engine</b>",
+            "<br>",
+            "This project integrates <b>Python processing and Unreal Engine rendering</b> to create an interactive and shareable 3D preview of a customized Coca-Cola can.",
+            "<br><br>",
+            "<b>How It Works:</b>",
+            "<br>",
+            "&#10122; The user <b>inputs custom text or an image</b>, which is processed in <b>Python</b> and mapped onto a Coca-Cola label.",
+            "<br>",
+            "&#10123; The generated <b>texture is imported into Unreal Engine</b>, dynamically applied to a <b>realistic 3D can model</b>.",
+            "<br>",
+            "&#10124; The user can <b>preview the customized can in real-time</b>, rotate it, and explore it in a photorealistic environment.",
+            "<br>",
+            "&#10125; A built-in <b>animation recording system</b> allows users to capture and <b>share videos on social media</b>.",
+            "<br><br>",
+            "<b>Key Features:</b>",
+            "<br>",
+            "<span>&#10003;</span> <b>Python-powered</b> dynamic label generation.",
+            "<br>",
+            "<span>&#10003;</span> <b>High-fidelity rendering</b> in <b>Unreal Engine</b> with realistic reflections and lighting.",
+            "<br>",
+            "<span>&#10003;</span> <b>Interactive 3D preview</b>, allowing real-time user interaction.",
+            "<br>",
+            "<span>&#10003;</span> <b>Social media sharing</b>, enabling users to create and distribute custom animations.",
+            "<br><br>",
+            "This project showcases the <b>seamless fusion of AI-driven customization, real-time rendering, and user interactivity</b>, providing an immersive way to personalize and visualize products before production."
+        ],
+        
+    "ImagenesIndividualProjectArray": [     
+    { "src": "/imgs/cocacan/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},
+    { "src": "/imgs/cocacan/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},          
+    { "src": "/imgs/cocacan/1.png", "alt": "ImgPlaceholder","type":"imagen" },
+    { "src": "/imgs/cocacan/2.png", "alt": "ImgPlaceholder","type":"imagen" },
+    { "src": "/imgs/cocacan/3.png", "alt": "ImgPlaceholder","type":"imagen" }
+]
 }
 ]

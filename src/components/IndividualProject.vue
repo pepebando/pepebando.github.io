@@ -2,8 +2,8 @@
   <div v-if="project" class="p-6 text-white bg-black ">
     <div class="relative bg-gradient-to-b from-purple-800 to-black p-6 rounded-lg   ">
       <router-link to="/projects" class=" rounded-lg transition ">
-          <ArrowLeft class="size-20 mb-10 lg:size-15"  />
-        </router-link>
+        <ArrowLeft class="size-20 mb-10 lg:size-15"  />
+      </router-link>
       <div class="flex items-center">
         <img :src="project.image" class="rounded-lg w-48 h-48 object-cover shadow-lg " />
         <div class="ml-6">
@@ -39,45 +39,45 @@
           <masonry-wall v-if="images.length" :items="images" :min-columns="2" :max-columns="3" :gap="16">
             <template #default="{ item, index }">
               <div class="relative group overflow-hidden rounded-lg cursor-pointer" @click="openLightbox(index)">
-                
+
                 <img v-if="item.type === 'imagen'" :src="item.src" :alt="item.alt"
                 class="w-full h-[200px] object-cover transition-transform duration-300 transform group-hover:scale-110" />
+
+              <!-- Video con icono de Play -->
+              <div v-if="item.type === 'video'" class="relative">
+                <video :src="item.src" controls class="w-full h-[200px] object-cover transition-transform duration-300 group-hover:scale-110">
+                </video>
                 
-                <!-- Video con icono de Play -->
-                <div v-if="item.type === 'video'" class="relative">
-                  <video :src="item.src" controls class="w-full h-[200px] object-cover transition-transform duration-300 group-hover:scale-110">
-                  </video>
-                  
-                  <!-- Icono de Play con Lucide -->
-                  <div class="absolute inset-0 flex items-center justify-center  bg-opacity-50 group-hover:bg-opacity-70 transition-opacity">
-                    <PlayCircle class="w-12 h-12 text-white opacity-90 group-hover:opacity-50 transition-opacity" />
-                  </div>
+                <!-- Icono de Play con Lucide -->
+                <div class="absolute inset-0 flex items-center justify-center  bg-opacity-50 group-hover:bg-opacity-70 transition-opacity">
+                  <PlayCircle class="w-12 h-12 text-white opacity-90 group-hover:opacity-50 transition-opacity" />
                 </div>
-                
               </div>
-            </template>
-          </masonry-wall>
+              
+            </div>
+          </template>
+        </masonry-wall>
+        
+        <!-- Lightbox (Pantalla Completa) -->
+        <div v-if="lightboxActive" class="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50">
+          <button @click="closeLightbox" class="absolute top-10 right-10 text-white text-7xl lg:text-5xl size-20 lg:size-15 rounded-lg bg-purple-800">&times;</button>
           
-          <!-- Lightbox (Pantalla Completa) -->
-          <div v-if="lightboxActive" class="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50">
-            <button @click="closeLightbox" class="absolute top-10 right-10 text-white text-7xl lg:text-5xl size-20 lg:size-15 rounded-lg bg-purple-800">&times;</button>
-            
-            <button @click="prevImage" class="absolute left-6 text-white cursor-pointer text-5xl lg:text-5xl size-15 lg:size-15 rounded-lg bg-purple-800 opacity-50">&larr;</button>
-            
-            <!-- Imagen en pantalla completa -->
-            <img v-if="currentImage.type === 'imagen'" :src="currentImage.src" :alt="currentImage.alt"
-            class="max-w-full max-h-screen object-contain shadow-lg">
-            
-            <!-- Video en pantalla completa -->
-            <video v-if="currentImage.type === 'video'" :src="currentImage.src" id="fullscreen-video" 
-            controls autoplay class="max-w-full max-h-screen object-contain shadow-lg">
-          </video>
+          <button @click="prevImage" class="absolute left-6 text-white cursor-pointer text-5xl lg:text-5xl size-15 lg:size-15 rounded-lg bg-purple-800 opacity-50">&larr;</button>
           
-          <button @click="nextImage" class="absolute right-6 text-white text-4xl cursor-pointer text-5xl lg:text-5xl size-15 lg:size-15 rounded-lg bg-purple-800 opacity-50">&rarr;</button>
-        </div>
+          <!-- Imagen en pantalla completa -->
+          <img v-if="currentImage.type === 'imagen'" :src="currentImage.src" :alt="currentImage.alt"
+          class="max-w-full max-h-screen object-contain shadow-lg">
+          
+          <!-- Video en pantalla completa -->
+          <video v-if="currentImage.type === 'video'" :src="currentImage.src" id="fullscreen-video" 
+          controls autoplay class="max-w-full max-h-screen object-contain shadow-lg">
+        </video>
+        
+        <button @click="nextImage" class="absolute right-6 text-white text-4xl cursor-pointer text-5xl lg:text-5xl size-15 lg:size-15 rounded-lg bg-purple-800 opacity-50">&rarr;</button>
       </div>
     </div>
   </div>
+</div>
 </div>
 </div>
 </template>

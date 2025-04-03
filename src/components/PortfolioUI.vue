@@ -2,8 +2,19 @@
   <div class="w-full p-4 mb-2 px-6 bg-gradient-to-b from-bgtopgradient to-black rounded-lg ">
     
     <!-- Título de Destacados -->
-    <div class="flex justify-between mt-15 lg:mt-0">
-      <h1 class="text-5xl lg:text-3xl font-bold">¡Highlights!</h1>  
+    <div >
+      <div class="mt-7">
+        <Motion
+        :initial="{  x: -140, opacity: 0 }"
+        :in-view="{  x: 0,opacity: 1 }"
+        :in-view-options="{
+          once: true,
+        }"
+        :transition="{
+          delay: 0.3,
+        }">
+        <h1 class="text-5xl lg:text-3xl font-bold">¡Highlights!</h1>  
+      </Motion>
     </div>
     <!-- Proyectos Favoritos -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-6">
@@ -33,7 +44,7 @@
     </Motion>
   </router-link>
 </div>
-
+    </div>
 <!-- Título de Proyectos -->
 <h1 class="text-5xl lg:text-3xl mt-15 font-bold mt-7">Projects - {{categorytoprint}}</h1>
 
@@ -48,21 +59,21 @@
   }"
   >
   <Motion
-      :initial="{  y: 140, opacity: 0, scale: 0.85  }"
-      :in-view="{  y: 0,opacity: 1, }"
-      :in-view-options="{
-        once: true,
-      }"
-      :transition="{
-        delay: 0.6 + IndividualProject.id * 0.2,
-      }">
+  :initial="{  y: 140, opacity: 0, scale: 0.85  }"
+  :in-view="{  y: 0,opacity: 1, }"
+  :in-view-options="{
+    once: true,
+  }"
+  :transition="{
+    delay: 0.6 + IndividualProject.id * 0.2,
+  }">
   <ProjectCard 
   :title="IndividualProject.title" 
   :image="IndividualProject.image" 
   :description="IndividualProject.description" 
   :color="IndividualProject.color" 
   />
-  </Motion>
+</Motion>
 </router-link>
 </div>
 

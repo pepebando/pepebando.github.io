@@ -34,5 +34,14 @@
         "description": "Wordpress site",
         "color":"bg-titlep4",
         "tags":["web","wp"]
+    },
+    {
+        "id": 5,
+        "title": "Create your own Coca-Cola can",
+        "subtitle": "App for corporative events",
+        "image": "/imgs/cocacan/2.png",
+        "description": "App for corporative events",
+        "color":"bg-titlep5",
+        "tags":["ue","py"]
     }
 ]
