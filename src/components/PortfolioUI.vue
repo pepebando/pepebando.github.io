@@ -60,10 +60,7 @@
   >
   <Motion
   :initial="{  y: 140, opacity: 0, scale: 0.85  }"
-  :in-view="{  y: 0,opacity: 1, }"
-  :in-view-options="{
-    once: true,
-  }"
+  :animate="{  y: 0,opacity: 1, }"
   :transition="{
     delay: 0.6 + IndividualProject.id * 0.2,
   }">

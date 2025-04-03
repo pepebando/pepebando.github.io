@@ -60,7 +60,7 @@
         
         <!-- Lightbox (Pantalla Completa) -->
         <div v-if="lightboxActive" class="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50">
-          <button @click="closeLightbox" class="absolute top-10 right-10 text-white text-7xl lg:text-5xl size-20 lg:size-15 rounded-lg bg-purple-800">&times;</button>
+          <button @click="closeLightbox" class="absolute top-10 right-10 text-white text-7xl lg:text-5xl size-20 lg:size-15 rounded-lg bg-purple-800 z-99">&times;</button>
           
           <button @click="prevImage" class="absolute left-6 text-white cursor-pointer text-5xl lg:text-5xl size-15 lg:size-15 rounded-lg bg-purple-800 opacity-50">&larr;</button>
           

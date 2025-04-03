@@ -2,18 +2,18 @@
     {
         "id": 1,
         "title": "Advanced Architectural Visualization",
-        "subtitle": "Archiz in Unreal Engine 5.5",
+        "subtitle": "Archviz in Unreal Engine 5.5",
         "image": "/imgs/archviztello/m12.jpg",
-        "description": "Archiz in Unreal Engine 5.5",
+        "description": "Archviz in Unreal Engine 5.5",
         "color":"bg-titlep1",
         "tags":["ue","archviz"]
     },
     {
         "id": 2,
         "title": "Architectural Visualization",
-        "subtitle": "Archiz in Unreal Engine 5.5",
+        "subtitle": "Archviz in Unreal Engine 5.5",
         "image": "/imgs/EKS1/2.png",
-        "description": "Archiz in Unreal Engine 5.5",
+        "description": "Archviz in Unreal Engine 5.5",
         "color":"bg-titlep2",
         "tags":["ue","archviz"]
     },
@@ -43,5 +43,51 @@
         "description": "App for corporative events",
         "color":"bg-titlep5",
         "tags":["ue","py"]
+    },
+    {
+        "id": 6,
+        "title": "Poetas y escritores Miami",
+        "subtitle": "Wordpress site",
+        "image": "/imgs/poetas/5.png",
+        "description": "Wordpress site",
+        "color":"bg-titlep6",
+        "tags":["web","wp"]
+    },
+    {
+        "id": 7,
+        "title": "Activa tu Higado",
+        "subtitle": "3D WebGL Website",
+        "image": "/imgs/higado/1.png",
+        "description": "3D site",
+        "color":"bg-titlep1",
+        "tags":["web","3D","wp"]
+    },
+    {
+        "id": 8,
+        "title": "Mejora tu memoria",
+        "subtitle": "PHP/HTML Game Website",
+        "image": "/imgs/memoria/1.png",
+        "description": "PHP/HTML Game Website",
+        "color":"bg-titlep2",
+        "tags":["web","3D","wp"]
+    },
+    {
+        "id": 9,
+        "title": "Tecman Store page",
+        "subtitle": "Wordpress site E-Commerce",
+        "image": "/imgs/tecman/1.png",
+        "description": "Wordpress site E-Commerce",
+        "color":"bg-titlep3",
+        "tags":["web","wp"]
+    },
+    {
+        "id": 10,
+        "title": "Mifex",
+        "subtitle": "Wordpress site",
+        "image": "/imgs/mifex/1.png",
+        "description": "Wordpress site",
+        "color":"bg-titlep4",
+        "tags":["web","wp"]
     }
+    
 ]
