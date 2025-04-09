@@ -69,7 +69,7 @@
         "image": "/imgs/memoria/1.png",
         "description": "PHP/HTML Game Website",
         "color":"bg-titlep2",
-        "tags":["web","3D","wp"]
+        "tags":["web","3D","wp","games"]
     },
     {
         "id": 9,
@@ -88,6 +88,203 @@
         "description": "Wordpress site",
         "color":"bg-titlep4",
         "tags":["web","wp"]
+    },
+    {
+        "id": 11,
+        "title": "Solo Survival Shooter with Dynamic Arenas",
+        "subtitle": "3D Singleplayer Videogame",
+        "image": "/imgs/juggernaut/1.png",
+        "description": "3D Singleplayer Videogame",
+        "color":"bg-titlep5",
+        "tags":["ue","games"]
+    },
+    {
+        "id": 12,
+        "title": "Multiplayer PvP Minigame Arena",
+        "subtitle": "3D Multiplayer Videogame",
+        "image": "/imgs/mifex/1.png",
+        "description": "3D Multiplayer Videogame",
+        "color":"bg-titlep6",
+        "tags":["ue","games"]
+    },
+    {
+        "id": 13,
+        "title": "Nestogeno (Nestle) VR Experience",
+        "subtitle": "VR Experience for companies",
+        "image": "/imgs/mifex/1.png",
+        "description": "VR Experience for companies",
+        "color":"bg-titlep1",
+        "tags":["ue","VR"]
+    },
+    {
+        "id": 14,
+        "title": "Chery AR Experience-Car Showcase",
+        "subtitle": "AR Experience for companies",
+        "image": "/imgs/mifex/1.png",
+        "description": "AR Experience for companies",
+        "color":"bg-titlep2",
+        "tags":["ue","app","ar"]
+    },
+    {
+        "id": 15,
+        "title": "Nestlé VR Onboarding",
+        "subtitle": "VR Experience for companies",
+        "image": "/imgs/mifex/1.png",
+        "description": "VR Experience for companies",
+        "color":"bg-titlep3",
+        "tags":["ue","vr"]
+    },
+    {
+        "id": 16,
+        "title": "Dexkedol- Pharma VR Activation",
+        "subtitle": "VR Experience for Pharmaceutical companies",
+        "image": "/imgs/mifex/1.png",
+        "description": "Dexkedol- for Pharmaceutical companies",
+        "color":"bg-titlep4",
+        "tags":["ue","vr"]
+    },
+    {
+        "id": 17,
+        "title": "EKS - VR for Archviz",
+        "subtitle": "VR Experience for Architecture",
+        "image": "/imgs/mifex/1.png",
+        "description": "VR Experience for Architecture",
+        "color":"bg-titlep5",
+        "tags":["ue","vr"]
+    },
+    {
+        "id": 18,
+        "title": "Inducorp VR ",
+        "subtitle": "VR Experience for companies",
+        "image": "/imgs/mifex/1.png",
+        "description": "VR Experience for companies",
+        "color":"bg-titlep6",
+        "tags":["ue","vr"]
+    },
+    {
+        "id": 19,
+        "title": "Create your own story Videogame",
+        "subtitle": "3D Singleplayer Videogame",
+        "image": "/imgs/mifex/1.png",
+        "description": "3D Singleplayer Videogame",
+        "color":"bg-titlep1",
+        "tags":["ue","games"]
+    },
+    {
+        "id": 20,
+        "title": "Maresa Brochure 3D",
+        "subtitle": "3D Brochure",
+        "image": "/imgs/mifex/1.png",
+        "description": "3D Brochure",
+        "color":"bg-titlep2",
+        "tags":["ue"]
+    },
+    {
+        "id": 21,
+        "title": "Personal Portfolio",
+        "subtitle": "Portfolio website",
+        "image": "/imgs/mifex/1.png",
+        "description": "Portfolio website",
+        "color":"bg-titlep3",
+        "tags":["web","wp"]
+    },
+    {
+        "id": 22,
+        "title": "Mixed Reality apartment decorator",
+        "subtitle": "MXR Quest 3",
+        "image": "/imgs/mifex/1.png",
+        "description": "MXR Quest 3",
+        "color":"bg-titlep4",
+        "tags":["ue","mxr"]
+    },
+    {
+        "id": 23,
+        "title": "AR Postcards",
+        "subtitle": "Augmented Reality for Tourism",
+        "image": "/imgs/mifex/1.png",
+        "description": "Augmented Reality for Tourism",
+        "color":"bg-titlep5",
+        "tags":["ue","ar"]
+    },
+    {
+        "id": 24,
+        "title": "Neurobion VR/MXR Experience",
+        "subtitle": "VR/MXR Experience for Pharmaceutical companies",
+        "image": "/imgs/mifex/1.png",
+        "description": "VR/MXR Experience for Pharmaceutical companies",
+        "color":"bg-titlep1",
+        "tags":["ue","mxr","vr"]
+    },
+    {
+        "id": 25,
+        "title": "Deepblend Website",
+        "subtitle": "Wordpress site",
+        "image": "/imgs/mifex/1.png",
+        "description": "Wordpress site",
+        "color":"bg-titlep2",
+        "tags":["wp","web"]
+    },
+    {
+        "id": 26,
+        "title": "BYD- VR Test Drive",
+        "subtitle": "VR Test Drive",
+        "image": "/imgs/mifex/1.png",
+        "description": "VR Test Drive",
+        "color":"bg-titlep3",
+        "tags":["wp","web"]
+    },
+    {
+        "id": 27,
+        "title": "Twitch virtual scenario for stream",
+        "subtitle": "UE5 Axximetry scenario",
+        "image": "/imgs/mifex/1.png",
+        "description": "UE5 Axximetry scenario",
+        "color":"bg-titlep4",
+        "tags":["mxr","ue","web"]
+    },
+    {
+        "id": 28,
+        "title": "Zoltum- VR Experience",
+        "subtitle": "VR/MXR Experience for Pharmaceutical companies",
+        "image": "/imgs/mifex/1.png",
+        "description": "VR/MXR Experience for Pharmaceutical companies",
+        "color":"bg-titlep4",
+        "tags":["mxr","ue","web"]
+    },
+    {
+        "id": 29,
+        "title": "Farmaenlace- virtual scenario",
+        "subtitle": "UE5 Axximetry scenario",
+        "image": "/imgs/mifex/1.png",
+        "description": "UE5 Axximetry scenario",
+        "color":"bg-titlep4",
+        "tags":["mxr","ue"]
+    },
+    {
+        "id": 30,
+        "title": "Neurobion spacelaunch- VR Experience",
+        "subtitle": "VR Experience for companies",
+        "image": "/imgs/mifex/1.png",
+        "description": "VR Experience for companies",
+        "color":"bg-titlep5",
+        "tags":["vr","ue","web"]
+    },
+    {
+        "id": 31,
+        "title": "Dynamic Aquarium",
+        "subtitle": "Python and UE5 Integration",
+        "image": "/imgs/mifex/1.png",
+        "description": "Python and UE5 Integration",
+        "color":"bg-titlep5",
+        "tags":["vr","ue","web"]
+    },
+    {
+        "id": 32,
+        "title": "Box Game VR",
+        "subtitle": "VR Experience for Pharmaceutical companies",
+        "image": "/imgs/mifex/1.png",
+        "description": "VR Experience for Pharmaceutical companies",
+        "color":"bg-titlep5",
+        "tags":["vr","ue"]
     }
-    
 ]

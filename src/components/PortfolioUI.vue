@@ -60,9 +60,9 @@
   >
   <Motion
   :initial="{  y: 140, opacity: 0, scale: 0.85  }"
-  :animate="{  y: 0,opacity: 1, }"
+  :animate="{  y: 0,opacity: 1 }"
   :transition="{
-    delay: 0.6 + IndividualProject.id * 0.2,
+    delay: 0.6 
   }">
   <ProjectCard 
   :title="IndividualProject.title" 
