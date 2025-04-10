@@ -456,7 +456,7 @@
 ]
 },
 {    "id": 13,
-"image": "/imgs/mifex/1.png",
+"image": "/imgs/nestogeno/1.png",
 "description": [
 "<b>Nestogeno VR Experience – Immersive Brand Journey for Nestlé Activation</b>",
 "<br>",
@@ -485,12 +485,9 @@
 "<b>Technology Used:</b> Unreal Engine 5, Oculus Quest 3, Blueprint Scripting, 3D Asset Design, Voiceover Production, Event Optimization"
 ],
 "ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/juggernaut/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/mifex/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/mifex/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/mifex/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/mifex/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/mifex/5.png", "alt": "ImgPlaceholder","type":"imagen" }
+{ "src": "/imgs/nestogeno/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
+{ "src": "/imgs/nestogeno/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
+{ "src": "/imgs/nestogeno/2.png", "alt": "ImgPlaceholder", "type":"imagen"}
 ]
 },
 {    "id": 14,
@@ -520,7 +517,7 @@
     "<br><br>",
     "This project demonstrates how <b>Augmented Reality can enhance the customer experience in physical retail spaces</b>, providing a futuristic and convenient way to explore products with depth and personalization.",
     "<br><br>",
-    "<b>Technology Used:</b> AR.js / 8thWall / Unity + AR Foundation, 3D Modeling, Voiceover Integration, UI/UX for Touch Interaction"
+    "<b>Technology Used:</b> AR.js / 8thWall / Unreal + AR Foundation, 3D Modeling, Voiceover Integration, UI/UX for Touch Interaction"
 ],
 "ImagenesIndividualProjectArray": [ 
 { "src": "/imgs/juggernaut/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
@@ -572,7 +569,7 @@
 },
 
 { "id": 16,
-"image": "/imgs/mifex/1.png",
+"image": "/imgs/dexkedol/6.png",
 "description": [
     "<b>Pharma VR Activation – Immersive Launch Experience for New Painkiller</b>",
     "<br>",
@@ -598,20 +595,22 @@
     "<br><br>",
     "This project showcases how <b>VR technology can revolutionize pharmaceutical communication</b>, delivering clear, memorable education to healthcare professionals and event attendees.",
     "<br><br>",
-    "<b>Technology Used:</b> Unreal Engine / Unity, Oculus Quest, 3D Medical Animation, Voiceover Integration, Interactive Timeline Design"
+    "<b>Technology Used:</b> Unreal Engine, Oculus Quest, 3D Medical Animation, Voiceover Integration, Interactive Timeline Design"
 ]
 ,
 "ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/juggernaut/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/mifex/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/mifex/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/mifex/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/mifex/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/mifex/5.png", "alt": "ImgPlaceholder","type":"imagen" }
+{ "src": "/imgs/dexkedol/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
+{ "src": "/imgs/dexkedol/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
+{ "src": "/imgs/dexkedol/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
+{ "src": "/imgs/dexkedol/3.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/dexkedol/4.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/dexkedol/6.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/dexkedol/7.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/dexkedol/5.png", "alt": "ImgPlaceholder","type":"imagen" }
 ]
 },
 { "id": 17,
-"image": "/imgs/mifex/1.png",
+"image": "/imgs/eks-vina/1.png",
 "description": [
     "<b>Architectural Visualization VR – Immersive Design Walkthrough</b>",
     "<br>",
@@ -641,15 +640,18 @@
 ]
 ,
 "ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/juggernaut/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/mifex/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/mifex/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/mifex/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/mifex/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/mifex/5.png", "alt": "ImgPlaceholder","type":"imagen" }
+{ "src": "/imgs/eks-vina/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
+{ "src": "/imgs/eks-vina/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
+{ "src": "/imgs/eks-vina/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
+{ "src": "/imgs/eks-vina/3.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/eks-vina/4.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/eks-vina/6.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/eks-vina/7.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/eks-vina/8.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/eks-vina/5.png", "alt": "ImgPlaceholder","type":"imagen" }
 ]
 },{ "id": 18,
-"image": "/imgs/mifex/1.png",
+"image": "/imgs/inducorp/2.png",
 "description": [
     "<b>Inducorp VR Experience – Immersive Brand Activation Highlighting Company Values and Product Portfolio</b>",
     "<br>",
@@ -679,12 +681,58 @@
 ]
 ,
 "ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/juggernaut/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/mifex/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/mifex/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/mifex/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/mifex/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/mifex/5.png", "alt": "ImgPlaceholder","type":"imagen" }
+{ "src": "/imgs/inducorp/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
+{ "src": "/imgs/inducorp/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
+{ "src": "/imgs/inducorp/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
+{ "src": "/imgs/inducorp/3.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/inducorp/4.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/inducorp/6.png", "alt": "ImgPlaceholder", "type":"imagen"},          
+{ "src": "/imgs/inducorp/7.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/inducorp/8.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/inducorp/5.png", "alt": "ImgPlaceholder","type":"imagen" }
+]
+},
+{ "id": 19,
+"image": "/imgs/nilah/1.png",
+"description": [
+    "<b>Interactive Story Builder – Creative Game for Children</b>",
+    "<br>",
+    "I developed a <b>children’s game in Unreal Engine</b> that empowers young players (and their parents or educators) to <b>create personalized stories</b> through an intuitive and engaging interactive environment.",
+    "<br><br>",
+    "<b>Game Overview:</b>",
+    "<br>",
+    "&#10122; Players enter a <b>colorful, animated world</b> where they can select characters, settings, and events to <b>build their own unique adventures</b>.",
+    "<br>",
+    "&#10123; The experience includes <b>storytelling narration</b>, <b>voiceovers</b>, and <b>animated scenes</b> that bring each story to life, making it fun and educational.",
+    "<br>",
+    "&#10124; Between storytelling segments, players engage in <b>mini-games</b> that reinforce lessons and themes, such as teamwork, creativity, and empathy.",
+    "<br><br>",
+    "<b>Key Features:</b>",
+    "<br>",
+    "<span>&#10003;</span> <b>Story-building interface</b> designed for kids with drag-and-drop mechanics.",
+    "<br>",
+    "<span>&#10003;</span> <b>Fully animated cutscenes</b> with synchronized voice narration.",
+    "<br>",
+    "<span>&#10003;</span> <b>Educational mini-games</b> integrated within each chapter.",
+    "<br>",
+    "<span>&#10003;</span> <b>Dynamic audio system</b> that adapts to story progression.",
+    "<br>",
+    "<span>&#10003;</span> <b>Parent and teacher modes</b> for guided learning experiences.",
+    "<br><br>",
+    "This project showcases the power of <b>interactive storytelling and gamification</b> to inspire creativity and critical thinking in children, blending <b>game design, animation, and narrative</b> into one magical experience.",
+    "<br><br>",
+    "<b>Technology Used:</b> Unreal Engine 5, Blueprint Scripting, Sequencer, Voiceover Integration, UI/UX for Children, Custom Audio Systems"
+]
+,
+"ImagenesIndividualProjectArray": [ 
+{ "src": "/imgs/nilah/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
+{ "src": "/imgs/nilah/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},    
+{ "src": "/imgs/nilah/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
+{ "src": "/imgs/nilah/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
+{ "src": "/imgs/nilah/3.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/nilah/4.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/nilah/5.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/nilah/6.png", "alt": "ImgPlaceholder","type":"imagen" }
 ]
 }
 ]
