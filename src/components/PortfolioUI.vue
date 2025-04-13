@@ -33,7 +33,7 @@
         once: true,
       }"
       :transition="{
-        delay: 0.1 + IndividualFavProject.id * 0.2,
+        delay: 0.6,
       }">
       <ProjectFavoriteCard 
       :title="IndividualFavProject.title" 
@@ -62,7 +62,7 @@
   :initial="{  y: 140, opacity: 0, scale: 0.85  }"
   :animate="{  y: 0,opacity: 1 }"
   :transition="{
-    delay: 0.6 
+    delay: 0.8 
   }">
   <ProjectCard 
   :title="IndividualProject.title" 
@@ -89,7 +89,7 @@ const route = useRoute();
 const selectedCategory = ref<string | null>(null);
 const IndividualProjects = ref([]);
 const IndividualFavoritesProjects = ref([]);
-const IDsFavoritos = ["1", "2", "3"];
+const IDsFavoritos = ["1", "19", "4","32","22","13"];
 const categorytoprint = computed(() => {
   switch (route.query.category) {
     case "ue":

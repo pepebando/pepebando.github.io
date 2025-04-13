@@ -135,7 +135,6 @@ const categories = ref([
 { title: 'Unreal Engine',tags:'ue'},
 { title: 'Web', tags:"web"},
 { title: 'Videogames',tags:'games' },
-{ title: 'Augmented Reality',tags:'ar'},
 { title: 'Mixed Reality',tags:'mr' },
 { title: 'Virtual Reality',tags:'vr' },
 { title: 'Archviz',tags:'archviz'},

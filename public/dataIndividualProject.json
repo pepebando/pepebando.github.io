@@ -415,7 +415,7 @@
 },
 {
     "id": 12,
-    "image": "/imgs/mifex/1.png",
+    "image": "/imgs/evil/1.jpeg",
     "description": [
         "<b>Multiplayer PvP Minigame Arena - Competitive Game Hub</b>",
         "<br>",
@@ -447,12 +447,19 @@
         "<b>Technology Used:</b> Unreal Engine / Photon / EOS / Steam Networking, Lobby Systems, UMG / UI Toolkit, 3D Asset Integration"
     ],
     "ImagenesIndividualProjectArray": [ 
-    { "src": "/imgs/juggernaut/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-    { "src": "/imgs/mifex/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-    { "src": "/imgs/mifex/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-    { "src": "/imgs/mifex/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-    { "src": "/imgs/mifex/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-    { "src": "/imgs/mifex/5.png", "alt": "ImgPlaceholder","type":"imagen" }
+    { "src": "/imgs/evil/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
+    { "src": "/imgs/evil/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},    
+    { "src": "/imgs/evil/v3.mp4", "alt": "ImgPlaceholder", "type":"video"},    
+    { "src": "/imgs/evil/1.jpeg", "alt": "ImgPlaceholder", "type":"imagen"},
+    { "src": "/imgs/evil/2.jpeg", "alt": "ImgPlaceholder", "type":"imagen"},          
+    { "src": "/imgs/evil/3.jpeg", "alt": "ImgPlaceholder","type":"imagen" },
+    { "src": "/imgs/evil/4.jpeg", "alt": "ImgPlaceholder","type":"imagen" },
+    { "src": "/imgs/evil/5.jpeg", "alt": "ImgPlaceholder","type":"imagen" },
+    { "src": "/imgs/evil/6.jpeg", "alt": "ImgPlaceholder", "type":"imagen"},
+    { "src": "/imgs/evil/7.jpeg", "alt": "ImgPlaceholder", "type":"imagen"},          
+    { "src": "/imgs/evil/8.jpeg", "alt": "ImgPlaceholder","type":"imagen" },
+    { "src": "/imgs/evil/9.jpeg", "alt": "ImgPlaceholder","type":"imagen" },
+    { "src": "/imgs/evil/10.jpeg", "alt": "ImgPlaceholder","type":"imagen" }
 ]
 },
 {    "id": 13,
@@ -488,83 +495,6 @@
 { "src": "/imgs/nestogeno/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
 { "src": "/imgs/nestogeno/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
 { "src": "/imgs/nestogeno/2.png", "alt": "ImgPlaceholder", "type":"imagen"}
-]
-},
-{    "id": 14,
-"image": "/imgs/mifex/1.png",
-"description": [
-    "<b>Chery AR Experience – Augmented Reality Car Showcase</b>",
-    "<br>",
-    "I developed an <b>Augmented Reality (AR) experience</b> for <b>Chery</b>, designed to be used directly from a mobile device inside car dealerships. The experience allows customers to explore new vehicle models interactively and immersively, without requiring the physical car to be present.",
-    "<br><br>",
-    "<b>Experience Overview:</b>",
-    "<br>",
-    "&#10122; Visitors use their smartphones or tablets to view a <b>life-sized, 3D car model</b> that appears within the showroom space using AR tracking.",
-    "<br>",
-    "&#10123; Users can <b>tap on the vehicle to cycle through different colors</b>, viewing how the car would look in multiple finishes and styles in real time.",
-    "<br>",
-    "&#10124; Tapping on hotspots or icons triggers <b>audio explanations and on-screen information</b> about specific features of the model — including design, performance, safety, and technology.",
-    "<br><br>",
-    "<b>Key Features:</b>",
-    "<br>",
-    "<span>&#10003;</span> <b>Mobile AR solution</b> that runs on both iOS and Android using WebAR or AR SDKs.",
-    "<br>",
-    "<span>&#10003;</span> <b>Color customization system</b> for real-time car visualization.",
-    "<br>",
-    "<span>&#10003;</span> <b>Interactive hotspots</b> that deliver voiceover content and model specifications.",
-    "<br>",
-    "<span>&#10003;</span> <b>No app download required</b> (if deployed via WebAR), ideal for showroom usage.",
-    "<br><br>",
-    "This project demonstrates how <b>Augmented Reality can enhance the customer experience in physical retail spaces</b>, providing a futuristic and convenient way to explore products with depth and personalization.",
-    "<br><br>",
-    "<b>Technology Used:</b> AR.js / 8thWall / Unreal + AR Foundation, 3D Modeling, Voiceover Integration, UI/UX for Touch Interaction"
-],
-"ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/juggernaut/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/mifex/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/mifex/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/mifex/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/mifex/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/mifex/5.png", "alt": "ImgPlaceholder","type":"imagen" }
-]
-},
-
-{ "id": 15,
-"image": "/imgs/mifex/1.png",
-"description": [
-    "<b>Nestlé VR Onboarding – Immersive Training for Company Values & Culture</b>",
-    "<br>",
-    "I developed an <b>interactive Virtual Reality (VR) onboarding experience</b> for <b>Nestlé</b>, aimed at familiarizing new employees with the company’s core values, expectations, and workplace culture in a highly engaging and memorable way.",
-    "<br><br>",
-    "<b>Experience Overview:</b>",
-    "<br>",
-    "&#10122; Employees are guided through a <b>fully immersive 3D environment</b> designed to reflect Nestlé’s identity, including branded spaces, interactive objects, and scenario-based learning.",
-    "<br>",
-    "&#10123; The experience introduces <b>Nestlé’s core principles</b> — including respect, integrity, sustainability, and innovation — using <b>interactive storytelling</b> and real-world examples.",
-    "<br>",
-    "&#10124; Through <b>voiceover narration, interactive tasks, and quizzes</b>, users actively learn what Nestlé expects from its employees, and how they can embody the company’s mission in their daily roles.",
-    "<br><br>",
-    "<b>Key Features:</b>",
-    "<br>",
-    "<span>&#10003;</span> <b>Designed for standalone VR headsets</b> like Oculus Quest to ensure ease of use and deployment across offices.",
-    "<br>",
-    "<span>&#10003;</span> <b>Scenario-based learning modules</b> with real-time feedback and user interaction.",
-    "<br>",
-    "<span>&#10003;</span> <b>Voiceover narration and branded content</b> to create consistency with corporate identity.",
-    "<br>",
-    "<span>&#10003;</span> <b>Gamified learning tools</b> to enhance retention and engagement.",
-    "<br><br>",
-    "This project highlights the use of <b>virtual reality as a transformative tool for corporate onboarding</b>, delivering a high-impact training experience that aligns new hires with Nestlé’s values and long-term vision from day one.",
-    "<br><br>",
-    "<b>Technology Used:</b> Unreal Engine, Oculus Quest, 3D Environment Design, Voiceover Integration, Learning Modules"
-],
-"ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/juggernaut/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/mifex/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/mifex/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/mifex/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/mifex/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/mifex/5.png", "alt": "ImgPlaceholder","type":"imagen" }
 ]
 },
 
@@ -734,103 +664,117 @@
 { "src": "/imgs/nilah/5.png", "alt": "ImgPlaceholder","type":"imagen" },
 { "src": "/imgs/nilah/6.png", "alt": "ImgPlaceholder","type":"imagen" }
 ]
-},{ "id": 20,
-"image": "/imgs/nilah/1.png",
+},{ "id": 22,
+"image": "/imgs/mxrdecor/1.jpg",
 "description": [
+    "<b>Mixed Reality Interior Designer – Quest 3 App with Persistent Furniture Placement</b>",
+    "<br>",
+    "I developed a <b>Mixed Reality (MR) application</b> for the <b>Meta Quest 3</b> using <b>Unreal Engine 5</b>, designed to let users visualize and customize furniture directly in their physical environment with real-world occlusion and lighting.",
+    "<br><br>",
+    "<b> Experience Overview:</b>",
+    "<br>",
+    "&#10122; Users can <b>spawn and place virtual furniture</b> in their real-world space through passthrough mode, using intuitive controls to rotate, scale, and move items.",
+    "<br>",
+    "&#10123; Each furniture item can have its <b>materials changed dynamically</b>, allowing users to preview different fabric, wood, or metal finishes in real time.",
+    "<br>",
+    "&#10124; The app supports <b>saving and loading object positions</b>, enabling users to resume their design layouts or experiment with multiple configurations over time.",
+    "<br>",
+    "&#10125; Users can also <b>adjust light intensity and color</b> through a virtual lighting panel, simulating how different lighting scenarios affect the appearance of materials in the mixed space.",
+    "<br><br>",
+    "<b> Key Features:</b>",
+    "<br>",
+    "<span>&#10003;</span> <b>Full Mixed Reality passthrough support</b> on Meta Quest 3 using Meta XR Toolkit.",
+    "<br>",
+    "<span>&#10003;</span> <b>Real-time furniture spawning and manipulation</b> with snap-to-floor and physics-based placement.",
+    "<br>",
+    "<span>&#10003;</span> <b>Material customization system</b> with instant visual feedback.",
+    "<br>",
+    "<span>&#10003;</span> <b>Persistent object saving/loading</b> using local or cloud storage.",
+    "<br>",
+    "<span>&#10003;</span> <b>Interactive lighting controls</b> to simulate daylight, ambient light, and colored accents.",
+    "<br><br>",
+    "This project showcases the potential of <b>Mixed Reality for interior design and spatial planning</b>, blending immersive 3D visualization with real-world environments for practical, intuitive home and retail applications.",
+    "<br><br>",
+    "<b>Technology Used:</b> Unreal Engine 5.3+, Meta Quest 3, MR Passthrough, Blueprint Scripting, Material Swapping, Save Game System, Lighting Control UI"
 ]
 ,
 "ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/nilah/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/nilah/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},    
-{ "src": "/imgs/nilah/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/nilah/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/nilah/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/5.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/6.png", "alt": "ImgPlaceholder","type":"imagen" }
+{ "src": "/imgs/mxrdecor/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
+{ "src": "/imgs/mxrdecor/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},    
+{ "src": "/imgs/mxrdecor/1.jpg", "alt": "ImgPlaceholder", "type":"imagen"},
+{ "src": "/imgs/mxrdecor/2.jpg", "alt": "ImgPlaceholder", "type":"imagen"},
+{ "src": "/imgs/mxrdecor/3.jpg", "alt": "ImgPlaceholder", "type":"imagen"},
+{ "src": "/imgs/mxrdecor/5.jpg", "alt": "ImgPlaceholder", "type":"imagen"},
+{ "src": "/imgs/mxrdecor/4.jpg", "alt": "ImgPlaceholder", "type":"imagen"}
 ]
-}
-,{ "id": 21,
-"image": "/imgs/nilah/1.png",
+},
+{ "id": 24,
+"image": "/imgs/neurobion/1.png",
 "description": [
+    "<b>Neurobion MXR Experience – Interactive Audio-Based Activation in Mixed Reality</b>",
+    "<br>",
+    "I created a <b>Mixed Reality (MR/XR) experience</b> using <b>Unreal Engine</b> for <b>Neurobion</b>, designed for use at pharmaceutical events. The project merges physical interaction with virtual elements to deliver educational content in an engaging, gamified format.",
+    "<br><br>",
+    "<b> Experience Overview:</b>",
+    "<br>",
+    "&#10122; Users wear a <b>Meta Quest headset</b> in passthrough mode and are provided with virtual <b>colorful balls</b> they can grab and throw within their real environment.",
+    "<br>",
+    "&#10123; When users throw a colored ball and hit a <b>floating target</b>, the experience triggers a corresponding <b>audio explanation about Neurobion’s benefits</b> and how it supports nerve health.",
+    "<br>",
+    "&#10124; Each target is linked to <b>a different key message</b> about the product, from ingredients to clinical results, making it fun to explore all information pieces through physical interaction.",
+    "<br><br>",
+    "<b> Key Features:</b>",
+    "<br>",
+    "<span>&#10003;</span> <b>Mixed Reality passthrough experience</b> built for Meta Quest 3, blending virtual objects with the real world.",
+    "<br>",
+    "<span>&#10003;</span> <b>Grab and throw mechanics</b> using motion controllers with haptic feedback.",
+    "<br>",
+    "<span>&#10003;</span> <b>Voiceover content delivery</b> triggered by target-based interactions.",
+    "<br>",
+    "<span>&#10003;</span> <b>Custom branding and visual identity</b> tailored to Neurobion’s pharmaceutical guidelines.",
+    "<br>",
+    "<span>&#10003;</span> <b>Optimized for quick event rotation</b> with short replayable sessions and intuitive onboarding.",
+    "<br><br>",
+    "This project showcases how <b>Mixed Reality can be used in the pharmaceutical industry</b> to create immersive, memorable experiences that communicate scientific messages through active user participation.",
+    "<br><br>",
+    "<b>Technology Used:</b> Unreal Engine 5.3+, Meta Quest 3, XR Passthrough, Blueprint Scripting, Voiceover System, Physics-based Interaction, Event Optimization"
 ]
 ,
 "ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/nilah/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/nilah/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},    
-{ "src": "/imgs/nilah/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/nilah/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/nilah/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/5.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/6.png", "alt": "ImgPlaceholder","type":"imagen" }
+{ "src": "/imgs/neurobion/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
+{ "src": "/imgs/neurobion/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
+{ "src": "/imgs/neurobion/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
+{ "src": "/imgs/neurobion/3.png", "alt": "ImgPlaceholder","type":"imagen" }
 ]
-}
-,{ "id": 22,
-"image": "/imgs/nilah/1.png",
-"description": [
-]
-,
-"ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/nilah/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/nilah/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},    
-{ "src": "/imgs/nilah/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/nilah/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/nilah/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/5.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/6.png", "alt": "ImgPlaceholder","type":"imagen" }
-]
-}
-,{ "id": 23,
-"image": "/imgs/nilah/1.png",
-"description": [
-]
-,
-"ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/nilah/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/nilah/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},    
-{ "src": "/imgs/nilah/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/nilah/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/nilah/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/5.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/6.png", "alt": "ImgPlaceholder","type":"imagen" }
-]
-}
-,{ "id": 24,
-"image": "/imgs/nilah/1.png",
-"description": [
-]
-,
-"ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/nilah/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/nilah/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},    
-{ "src": "/imgs/nilah/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/nilah/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/nilah/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/5.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/6.png", "alt": "ImgPlaceholder","type":"imagen" }
-]
-},{ "id": 25,
-"image": "/imgs/nilah/1.png",
-"description": [
-]
-,
-"ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/nilah/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/nilah/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},    
-{ "src": "/imgs/nilah/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/nilah/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/nilah/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/5.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/6.png", "alt": "ImgPlaceholder","type":"imagen" }
-]
-},{ "id": 26,
+},
+{ "id": 26,
 "image": "/imgs/byd/1.png",
 "description": [
+    "<b>BYD Test Drive VR – Immersive Video Experience for Electric Cars</b>",
+    "<br>",
+    "I developed a <b>Virtual Reality (VR) video player experience</b> for <b>BYD Electric Cars</b>, allowing users to <b>experience a full test drive</b> of BYD’s electric vehicles in a highly immersive, cinematic environment built in <b>Unreal Engine 5</b>.",
+    "<br><br>",
+    "<b>🔹 Experience Overview:</b>",
+    "<br>",
+    "&#10122; Users are placed inside a virtual BYD vehicle cockpit, where they <b>watch a 360° video</b> simulating a real-life test drive, including acceleration, cornering, and braking scenes.",
+    "<br>",
+    "&#10123; The experience is designed to <b>highlight key features of BYD electric vehicles</b> such as smoothness, silence, sustainability, and advanced in-car technology.",
+    "<br>",
+    "&#10124; A custom video player interface allows users to <b>navigate between scenes</b>, learn about the car’s specs, and interact with <b>branded UI elements</b> in a comfortable VR environment.",
+    "<br><br>",
+    "<b>🚀 Key Features:</b>",
+    "<br>",
+    "<span>&#10003;</span> <b>360° video playback</b> integrated into a real-time Unreal Engine 3D cockpit environment.",
+    "<br>",
+    "<span>&#10003;</span> <b>BYD-branded UI design</b> with scene navigation and information panels.",
+    "<br>",
+    "<span>&#10003;</span> <b>Comfort-optimized seating experience</b> for VR headsets with motion comfort and clarity.",
+    "<br>",
+    "<span>&#10003;</span> <b>Used in automotive activations and events</b> to promote BYD’s electric lineup in an innovative format.",
+    "<br><br>",
+    "This project demonstrates how <b>VR video can elevate product storytelling and customer engagement</b>, giving users a realistic and memorable first impression of electric mobility without leaving the showroom.",
+    "<br><br>",
+    "<b>Technology Used:</b> Unreal Engine 5, 360° Video Integration, Custom UI System, Oculus Quest 2/3, Media Framework, Event Optimization"
 ]
 ,
 "ImagenesIndividualProjectArray": [ 
@@ -838,69 +782,120 @@
 { "src": "/imgs/byd/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
 { "src": "/imgs/byd/2.png", "alt": "ImgPlaceholder", "type":"imagen"}
 ]
-},{ "id": 27,
-"image": "/imgs/nilah/1.png",
+}
+,{ "id": 28,
+"image": "/imgs/rodilla/1.png",
 "description": [
+    "<b>Tecnofarma VR Medical Simulator – Interactive Knee Injection Training</b>",
+    "<br>",
+    "I developed a <b>Virtual Reality (VR) experience</b> for <b>Tecnofarma</b>, designed as an immersive medical training tool that simulates the process of administering a <b>knee injection</b> using VR controllers for precise hand interaction.",
+    "<br><br>",
+    "<b>🔹 Experience Overview:</b>",
+    "<br>",
+    "&#10122; Users enter a realistic clinical environment where they are tasked with <b>administering an intra-articular injection</b> into a patient’s knee.",
+    "<br>",
+    "&#10123; Using VR motion controllers, the user <b>picks up a syringe, prepares the area, and performs the injection</b> step-by-step, guided by voiceover instructions and UI prompts.",
+    "<br>",
+    "&#10124; The experience emphasizes <b>correct needle placement, angle, and depth</b>, with haptic feedback and visual validation to simulate real-world medical precision.",
+    "<br><br>",
+    "<b>🚀 Key Features:</b>",
+    "<br>",
+    "<span>&#10003;</span> <b>Realistic anatomy and clinical environment</b> built for immersive medical training.",
+    "<br>",
+    "<span>&#10003;</span> <b>Full VR controller support</b> for hand interaction, syringe handling, and procedure steps.",
+    "<br>",
+    "<span>&#10003;</span> <b>Guided voiceover and UI system</b> for learning and onboarding within the headset.",
+    "<br>",
+    "<span>&#10003;</span> <b>Haptic and visual feedback</b> for successful or incorrect injection attempts.",
+    "<br>",
+    "<span>&#10003;</span> <b>Optimized for pharmaceutical events and medical workshops</b> to train professionals quickly and effectively.",
+    "<br><br>",
+    "This project highlights how <b>VR can revolutionize pharmaceutical education and procedural training</b>, delivering a safe, repeatable, and highly engaging experience that mirrors real clinical scenarios.",
+    "<br><br>",
+    "<b>Technology Used:</b> Unreal Engine 5, Oculus Quest 2/3, Blueprint Scripting, IK Animation, Skeletal Mesh Interaction, Voiceover & UI Integration"
 ]
 ,
 "ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/nilah/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/nilah/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},    
-{ "src": "/imgs/nilah/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/nilah/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/nilah/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/5.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/6.png", "alt": "ImgPlaceholder","type":"imagen" }
+{ "src": "/imgs/rodilla/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},        
+{ "src": "/imgs/rodilla/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
+{ "src": "/imgs/rodilla/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
+{ "src": "/imgs/rodilla/3.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/rodilla/4.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/rodilla/5.png", "alt": "ImgPlaceholder","type":"imagen" }
 ]
-},{ "id": 28,
-"image": "/imgs/nilah/1.png",
+},
+{ "id": 30,
+"image": "/imgs/launch/2.png",
 "description": [
+    "<b>Neurobion VR Launch Experience – Immersive Space Journey for Brand Activation</b>",
+    "<br>",
+    "I developed a <b>Virtual Reality (VR) experience</b> for <b>Neurobion</b>, transforming a pharmaceutical brand message into an <b>epic space-themed adventure</b> that was used during a brand activation event to engage audiences in a memorable and exciting way.",
+    "<br><br>",
+    "<b> Experience Overview:</b>",
+    "<br>",
+    "&#10122; Users are placed inside a <b>futuristic spaceship cockpit</b>, where they experience a <b>fully animated launch sequence</b> and lift-off into space, accompanied by immersive sound design and brand-aligned narration.",
+    "<br>",
+    "&#10123; The journey metaphorically represents the <b>power and effectiveness of Neurobion</b>, likening its nerve care benefits to a mission that reaches new heights.",
+    "<br>",
+    "&#10124; After traveling through space, users <b>land on the moon</b>, where they are welcomed into a branded environment that communicates <b>key product benefits</b> through interactive elements, lighting effects, and narrative-driven animation.",
+    "<br><br>",
+    "<b> Key Features:</b>",
+    "<br>",
+    "<span>&#10003;</span> <b>Real-time cinematic launch sequence</b> rendered with Unreal Engine 5's advanced visuals and sound systems.",
+    "<br>",
+    "<span>&#10003;</span> <b>Branded storytelling experience</b> tied to Neurobion’s core values and product messaging.",
+    "<br>",
+    "<span>&#10003;</span> <b>Interactive moments</b> within the spaceship and on the moon for deeper engagement.",
+    "<br>",
+    "<span>&#10003;</span> <b>Optimized for Oculus Quest</b> to support fast user onboarding and high event throughput.",
+    "<br><br>",
+    "This project demonstrates how <b>VR can turn a scientific message into an emotionally resonant journey</b>, helping users connect with the brand in a futuristic and fun way that goes beyond traditional pharmaceutical marketing.",
+    "<br><br>",
+    "<b>Technology Used:</b> Unreal Engine 5, Blueprint Scripting, Sequencer, Oculus Quest 2/3, 3D Animation, Spatial Audio, Brand Integration"
 ]
 ,
 "ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/nilah/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/nilah/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},    
-{ "src": "/imgs/nilah/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/nilah/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/nilah/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/5.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/6.png", "alt": "ImgPlaceholder","type":"imagen" }
-]
-},{ "id": 29,
-"image": "/imgs/nilah/1.png",
-"description": [
-]
-,
-"ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/nilah/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/nilah/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},    
-{ "src": "/imgs/nilah/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/nilah/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/nilah/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/5.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/6.png", "alt": "ImgPlaceholder","type":"imagen" }
-]
-},{ "id": 30,
-"image": "/imgs/nilah/1.png",
-"description": [
-]
-,
-"ImagenesIndividualProjectArray": [ 
-{ "src": "/imgs/nilah/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},       
-{ "src": "/imgs/nilah/v2.mp4", "alt": "ImgPlaceholder", "type":"video"},    
-{ "src": "/imgs/nilah/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
-{ "src": "/imgs/nilah/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
-{ "src": "/imgs/nilah/3.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/4.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/5.png", "alt": "ImgPlaceholder","type":"imagen" },
-{ "src": "/imgs/nilah/6.png", "alt": "ImgPlaceholder","type":"imagen" }
+{ "src": "/imgs/launch/v1.mp4", "alt": "ImgPlaceholder", "type":"video"},         
+{ "src": "/imgs/launch/1.png", "alt": "ImgPlaceholder", "type":"imagen"},
+{ "src": "/imgs/launch/2.png", "alt": "ImgPlaceholder", "type":"imagen"},          
+{ "src": "/imgs/launch/3.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/launch/4.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/launch/5.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/launch/7.png", "alt": "ImgPlaceholder","type":"imagen" },
+{ "src": "/imgs/launch/6.png", "alt": "ImgPlaceholder","type":"imagen" }
 ]
 },{ "id": 31,
 "image": "/imgs/acuario/1.png",
 "description": [
+    "<b>Interactive Aquarium – Real-Time Fish Coloring Experience with Python & Unreal Engine</b>",
+    "<br>",
+    "I developed a <b>mixed-media interactive experience</b> combining real-world creativity with real-time 3D rendering, where users colored fish on paper, uploaded their artwork, and saw their creations come to life inside a digital aquarium.",
+    "<br><br>",
+    "<b> Experience Overview:</b>",
+    "<br>",
+    "&#10122; Participants at the event <b>colored a printed fish template by hand</b>, then used a web interface to <b>upload a photo of their artwork</b>.",
+    "<br>",
+    "&#10123; The uploaded images were processed with a custom <b>Python script</b> to <b>automatically remove the background, adjust orientation, and crop</b> the fish to fit cleanly into the virtual scene.",
+    "<br>",
+    "&#10124; <b>Unreal Engine</b>, running in real-time, loaded the processed images dynamically and <b>displayed the custom-colored fish</b> swimming inside a vibrant, animated 3D aquarium.",
+    "<br>",
+    "&#10125; The final experience was <b>projected onto a wall</b> during a public activation event, allowing users to see their creations shared and swimming alongside others in a collective digital display.",
+    "<br><br>",
+    "<b> Key Features:</b>",
+    "<br>",
+    "<span>&#10003;</span> <b>Python-based image processing pipeline</b> for real-time background removal and correction.",
+    "<br>",
+    "<span>&#10003;</span> <b>Dynamic texture loading in Unreal Engine</b> to update the aquarium with new fish as users submit them.",
+    "<br>",
+    "<span>&#10003;</span> <b>User-friendly web upload interface</b> for fast participation at events.",
+    "<br>",
+    "<span>&#10003;</span> <b>Immersive 3D aquarium</b> featuring water effects, fish animation, and interaction.",
+    "<br>",
+    "<span>&#10003;</span> <b>Large-scale projection setup</b> to display the live experience on event walls.",
+    "<br><br>",
+    "This project demonstrates the powerful integration of <b>creative user input, Python automation, and real-time Unreal Engine rendering</b> to deliver a playful, collaborative, and visually impactful installation.",
+    "<br><br>",
+    "<b>Technology Used:</b> Unreal Engine 5, Python (OpenCV / PIL), Blueprint Scripting, Web Upload UI, Real-Time Texture Streaming, Projection Mapping"
 ]
 ,
 "ImagenesIndividualProjectArray": [ 
@@ -910,8 +905,35 @@
 ]
 },
 { "id": 32,
-"image": "/imgs/nilah/1.png",
+"image": "/imgs/box/1.png",
 "description": [
+    "<b>Pharma VR Boxing Challenge – Interactive Reaction Game with Color-Matched Targets</b>",
+    "<br>",
+    "I developed a <b>VR boxing-style game</b> for a <b>pharmaceutical company activation</b>, designed to promote energy, focus, and brand engagement through an interactive color-matching challenge using motion-based gameplay.",
+    "<br><br>",
+    "<b>🔹 Game Overview:</b>",
+    "<br>",
+    "&#10122; The user is placed in a virtual arena equipped with <b>two boxing gloves</b>: one <b>red</b> and one <b>blue</b>.",
+    "<br>",
+    "&#10123; Colored targets appear in motion around the user, and they must <b>punch the red targets with the red glove</b> and <b>blue targets with the blue glove</b> to score points.",
+    "<br>",
+    "&#10124; The gameplay gets progressively faster, testing <b>reaction speed, coordination, and precision</b>, all while reinforcing the energy-boosting message of the pharmaceutical product.",
+    "<br><br>",
+    "<b>🚀 Key Features:</b>",
+    "<br>",
+    "<span>&#10003;</span> <b>Real-time hand tracking with VR controllers</b> to simulate accurate boxing gestures.",
+    "<br>",
+    "<span>&#10003;</span> <b>Dynamic target spawning system</b> with increasing difficulty and randomized patterns.",
+    "<br>",
+    "<span>&#10003;</span> <b>Color-coded feedback system</b> for correct and incorrect hits.",
+    "<br>",
+    "<span>&#10003;</span> <b>Score tracking and visual effects</b> to gamify the experience and encourage participation.",
+    "<br>",
+    "<span>&#10003;</span> <b>Optimized for pharmaceutical brand activations</b> with short, high-impact gameplay loops.",
+    "<br><br>",
+    "This project highlights how <b>VR gaming can be applied in pharmaceutical marketing</b> to create an active, memorable, and branded experience that drives physical engagement and product recall.",
+    "<br><br>",
+    "<b>Technology Used:</b> Unreal Engine 5, Oculus Quest 2/3, Motion Controller Input, Blueprint Scripting, Particle FX, Score System, Event Optimization"
 ]
 ,
 "ImagenesIndividualProjectArray": [ 

@@ -102,10 +102,10 @@
         "id": 12,
         "title": "Multiplayer PvP Minigame Arena",
         "subtitle": "3D Multiplayer Videogame",
-        "image": "/imgs/mifex/1.png",
+        "image": "/imgs/evil/1.jpeg",
         "description": "3D Multiplayer Videogame",
         "color":"bg-titlep6",
-        "tags":["ue","games"]
+        "tags":["ue","games","app"]
     },
     {
         "id": 13,
@@ -116,24 +116,7 @@
         "color":"bg-titlep1",
         "tags":["ue","VR"]
     },
-    {
-        "id": 14,
-        "title": "Chery AR Experience-Car Showcase",
-        "subtitle": "AR Experience for companies",
-        "image": "/imgs/mifex/1.png",
-        "description": "AR Experience for companies",
-        "color":"bg-titlep2",
-        "tags":["ue","app","ar"]
-    },
-    {
-        "id": 15,
-        "title": "Nestlé VR Onboarding",
-        "subtitle": "VR Experience for companies",
-        "image": "/imgs/mifex/1.png",
-        "description": "VR Experience for companies",
-        "color":"bg-titlep3",
-        "tags":["ue","vr"]
-    },
+
     {
         "id": 16,
         "title": "Dexkedol- Pharma VR Activation",
@@ -170,59 +153,25 @@
         "color":"bg-titlep1",
         "tags":["ue","games","app"]
     },
-    {
-        "id": 20,
-        "title": "Maresa Brochure 3D",
-        "subtitle": "3D Brochure",
-        "image": "/imgs/mifex/1.png",
-        "description": "3D Brochure",
-        "color":"bg-titlep2",
-        "tags":["ue"]
-    },
-    {
-        "id": 21,
-        "title": "Personal Portfolio",
-        "subtitle": "Portfolio website",
-        "image": "/imgs/mifex/1.png",
-        "description": "Portfolio website",
-        "color":"bg-titlep3",
-        "tags":["web","wp"]
-    },
+
     {
         "id": 22,
         "title": "Mixed Reality apartment decorator",
         "subtitle": "MXR Quest 3",
-        "image": "/imgs/mifex/1.png",
+        "image": "/imgs/mxrdecor/1.jpg",
         "description": "MXR Quest 3",
         "color":"bg-titlep4",
-        "tags":["ue","mxr"]
+        "tags":["ue","mr"]
     },
-    {
-        "id": 23,
-        "title": "AR Postcards",
-        "subtitle": "Augmented Reality for Tourism",
-        "image": "/imgs/mifex/1.png",
-        "description": "Augmented Reality for Tourism",
-        "color":"bg-titlep5",
-        "tags":["ue","ar"]
-    },
+
     {
         "id": 24,
         "title": "Neurobion VR/MXR Experience",
         "subtitle": "VR/MXR Experience for Pharmaceutical companies",
-        "image": "/imgs/mifex/1.png",
+        "image": "/imgs/neurobion/1.png",
         "description": "VR/MXR Experience for Pharmaceutical companies",
         "color":"bg-titlep1",
-        "tags":["ue","mxr","vr"]
-    },
-    {
-        "id": 25,
-        "title": "Deepblend Website",
-        "subtitle": "Wordpress site",
-        "image": "/imgs/mifex/1.png",
-        "description": "Wordpress site",
-        "color":"bg-titlep2",
-        "tags":["wp","web"]
+        "tags":["ue","mr","vr"]
     },
     {
         "id": 26,
@@ -233,41 +182,24 @@
         "color":"bg-titlep3",
         "tags":["ue","vr"]
     },
-    {
-        "id": 27,
-        "title": "Twitch virtual scenario for stream",
-        "subtitle": "UE5 Axximetry scenario",
-        "image": "/imgs/mifex/1.png",
-        "description": "UE5 Axximetry scenario",
-        "color":"bg-titlep4",
-        "tags":["mxr","ue","web"]
-    },
+    
     {
         "id": 28,
-        "title": "Zoltum- VR Experience",
+        "title": "Tecnofarma- VR Experience",
         "subtitle": "VR/MXR Experience for Pharmaceutical companies",
-        "image": "/imgs/mifex/1.png",
+        "image": "/imgs/rodilla/1.png",
         "description": "VR/MXR Experience for Pharmaceutical companies",
         "color":"bg-titlep4",
-        "tags":["mxr","ue","web"]
-    },
-    {
-        "id": 29,
-        "title": "Farmaenlace- virtual scenario",
-        "subtitle": "UE5 Axximetry scenario",
-        "image": "/imgs/mifex/1.png",
-        "description": "UE5 Axximetry scenario",
-        "color":"bg-titlep4",
-        "tags":["mxr","ue"]
+        "tags":["vr","ue"]
     },
     {
         "id": 30,
         "title": "Neurobion spacelaunch- VR Experience",
         "subtitle": "VR Experience for companies",
-        "image": "/imgs/mifex/1.png",
+        "image": "/imgs/launch/2.png",
         "description": "VR Experience for companies",
         "color":"bg-titlep5",
-        "tags":["vr","ue","web"]
+        "tags":["vr","ue"]
     },
     {
         "id": 31,
@@ -276,7 +208,7 @@
         "image": "/imgs/acuario/1.png",
         "description": "Python and UE5 Integration",
         "color":"bg-titlep5",
-        "tags":["vr","ue","web"]
+        "tags":["ue","web","py"]
     },
     {
         "id": 32,
