@@ -30,29 +30,37 @@
                 <br>
                 <br>
                 Feel free to reach out—I’m always open to new projects and collaborations!</p>
-                <router-link to="/contact" class="flex items-center space-x-2 cursor-pointer transition-opacity">
-                    <button
-                    class=" m-8 mt-1 text-3xl lg:text-xl bg-gray-700 text-white cursor-pointer  text-black font-bold py-2 px-4 rounded transition  hover:bg-gray-600">
-                    Contact
-                </button>
-            </router-link>
-        </section>
-        <!-- Sección de Artistas -->
-        <section class="w-full p-6">
-            <h2 class="text-center text-4xl lg:text-left lg:text-2xl font-bold mb-10">Technical Skills</h2>
-            <div class="grid grid-cols-3 place-items-center lg:grid-cols-7   ">
-                <PerfilCardUI v-for="(project, index) in Habilidades" :key="index" :title="project.title" :image="project.image" />
-            </div>
-        </section>
-        
-        <section class="p-6">
-            <h2 class="text-4xl lg:text-2xl font-bold">Certficates and Education</h2>
-            <div class="mt-4">
-                <SocialMediaPercilUI v-for="(social, index) in socialmedia" :key="index" :number="index + 1" :title="social.title" :description="social.description" :duration="social.duration" :image="social.image" />
-            </div>
-        </section>
-        <div class="h-50 block lg:hidden"></div>
-    </Motion>
+                <div class="flex">
+                    <router-link to="/contact" class="flex items-center space-x-2 cursor-pointer transition-opacity">
+                        <button
+                        class=" m-8 mt-1 text-3xl lg:text-xl bg-gray-700 text-white cursor-pointer  text-black font-bold py-2 px-4 rounded transition  hover:bg-gray-600">
+                        Contact
+                    </button>
+                </router-link>
+                <button
+                class=" m-8 mt-1 text-3xl lg:text-xl bg-gray-700 text-white cursor-pointer  text-black font-bold py-2 px-4 rounded transition  hover:bg-gray-600" >
+                <a href="https://www.linkedin.com/in/joseobando/" target='_blank'>
+                LinkedIn
+                </a>
+            </button>
+        </div>
+    </section>
+    <!-- Sección de Artistas -->
+    <section class="w-full p-6">
+        <h2 class="text-center text-4xl lg:text-left lg:text-2xl font-bold mb-10">Technical Skills</h2>
+        <div class="grid grid-cols-3 place-items-center lg:grid-cols-7   ">
+            <PerfilCardUI v-for="(project, index) in Habilidades" :key="index" :title="project.title" :image="project.image" />
+        </div>
+    </section>
+    
+    <section class="p-6">
+        <h2 class="text-4xl lg:text-2xl font-bold">Certficates and Education</h2>
+        <div class="mt-4">
+            <SocialMediaPercilUI v-for="(social, index) in socialmedia" :key="index" :number="index + 1" :title="social.title" :description="social.description" :duration="social.duration" :image="social.image" />
+        </div>
+    </section>
+    <div class="h-50 block lg:hidden"></div>
+</Motion>
 </div>
 
 </template>
