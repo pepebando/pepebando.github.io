@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "/imgs/archviztello/m12.png",
+        "image": "/imgs/archviztello/m12.jpg",
         "description": [
             "This project represents a fusion of modern architectural design and high-level visualization technology.",
             "A photorealistic representation of a luxury residential space, emphasizing the use of contemporary materials, dynamic ambient lighting, and seamless integration with the natural surroundings.",
@@ -28,15 +28,15 @@
         { "src": "/imgs/archviztello/m8.png", "alt": "ImgPlaceholder","type":"imagen" },
         { "src": "/imgs/archviztello/m9.png", "alt": "ImgPlaceholder","type":"imagen" },
         { "src": "/imgs/archviztello/m10.png", "alt": "ImgPlaceholder","type":"imagen" },
-        { "src": "/imgs/archviztello/m11.png", "alt": "ImgPlaceholder","type":"imagen" },
-        { "src": "/imgs/archviztello/m12.png", "alt": "ImgPlaceholder","type":"imagen" },
-        { "src": "/imgs/archviztello/m13.png", "alt": "ImgPlaceholder","type":"imagen" },
-        { "src": "/imgs/archviztello/m14.png", "alt": "ImgPlaceholder","type":"imagen" },
-        { "src": "/imgs/archviztello/m15.png", "alt": "ImgPlaceholder","type":"imagen" },
-        { "src": "/imgs/archviztello/m16.png", "alt": "ImgPlaceholder","type":"imagen" },
-        { "src": "/imgs/archviztello/m17.png", "alt": "ImgPlaceholder","type":"imagen" },
-        { "src": "/imgs/archviztello/m19.png", "alt": "ImgPlaceholder","type":"imagen" },
-        { "src": "/imgs/archviztello/m18.png", "alt": "ImgPlaceholder","type":"imagen" }
+        { "src": "/imgs/archviztello/m11.jpg", "alt": "ImgPlaceholder","type":"imagen" },
+        { "src": "/imgs/archviztello/m12.jpg", "alt": "ImgPlaceholder","type":"imagen" },
+        { "src": "/imgs/archviztello/m13.jpg", "alt": "ImgPlaceholder","type":"imagen" },
+        { "src": "/imgs/archviztello/m14.jpg", "alt": "ImgPlaceholder","type":"imagen" },
+        { "src": "/imgs/archviztello/m15.jpg", "alt": "ImgPlaceholder","type":"imagen" },
+        { "src": "/imgs/archviztello/m16.jpg", "alt": "ImgPlaceholder","type":"imagen" },
+        { "src": "/imgs/archviztello/m17.jpg", "alt": "ImgPlaceholder","type":"imagen" },
+        { "src": "/imgs/archviztello/m19.jpg", "alt": "ImgPlaceholder","type":"imagen" },
+        { "src": "/imgs/archviztello/m18.jpg", "alt": "ImgPlaceholder","type":"imagen" }
     ]
 },
 {
