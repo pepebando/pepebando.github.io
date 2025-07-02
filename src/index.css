@@ -1,0 +1,350 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cyberpunk Gaming Portfolio Design System */
+
+@layer base {
+  :root {
+    /* Dark base theme with cyberpunk accents */
+    --background: 220 13% 6%;
+    --foreground: 180 100% 90%;
+
+    --card: 220 13% 8%;
+    --card-foreground: 180 100% 88%;
+
+    --popover: 220 13% 10%;
+    --popover-foreground: 180 100% 90%;
+
+    /* Cyberpunk primary colors */
+    --primary: 180 100% 50%;
+    --primary-foreground: 220 13% 6%;
+    --primary-glow: 180 100% 60%;
+
+    /* Neon accents */
+    --secondary: 300 100% 50%;
+    --secondary-foreground: 220 13% 6%;
+    --secondary-glow: 300 100% 60%;
+
+    --accent: 120 100% 50%;
+    --accent-foreground: 220 13% 6%;
+    --accent-glow: 120 100% 60%;
+
+    /* Gaming UI colors */
+    --muted: 220 13% 15%;
+    --muted-foreground: 180 20% 65%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 180 30% 25%;
+    --input: 220 13% 12%;
+    --ring: 180 100% 50%;
+
+    /* Gaming specific colors */
+    --warning: 50 100% 50%;
+    --success: 120 100% 50%;
+    --error: 0 100% 50%;
+    
+    /* Project title colors */
+    --titlep1: 180 100% 35%;
+    --titlep2: 300 100% 35%;
+    --titlep3: 120 100% 35%;
+    --titlep4: 50 100% 35%;
+    --titlep5: 0 100% 35%;
+    --titlep6: 240 100% 35%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(180 100% 20%), hsl(180 100% 50%));
+    --gradient-secondary: linear-gradient(135deg, hsl(300 100% 20%), hsl(300 100% 50%));
+    --gradient-accent: linear-gradient(135deg, hsl(120 100% 20%), hsl(120 100% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 13% 6%), hsl(180 100% 10%), hsl(220 13% 6%));
+    --gradient-card: linear-gradient(145deg, hsl(220 13% 8%), hsl(220 13% 12%));
+
+    /* Shadows with cyberpunk glow */
+    --shadow-glow-primary: 0 0 20px hsl(180 100% 50% / 0.5);
+    --shadow-glow-secondary: 0 0 20px hsl(300 100% 50% / 0.5);
+    --shadow-glow-accent: 0 0 20px hsl(120 100% 50% / 0.5);
+    --shadow-intense: 0 10px 40px hsl(180 100% 50% / 0.3);
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+/* Gaming animations and effects */
+@layer utilities {
+  .glow-primary {
+    box-shadow: var(--shadow-glow-primary);
+  }
+  
+  .glow-secondary {
+    box-shadow: var(--shadow-glow-secondary);
+  }
+  
+  .glow-accent {
+    box-shadow: var(--shadow-glow-accent);
+  }
+
+  .text-glow-primary {
+    text-shadow: 0 0 10px hsl(var(--primary));
+  }
+
+  .text-glow-secondary {
+    text-shadow: 0 0 10px hsl(var(--secondary));
+  }
+
+  .text-glow-accent {
+    text-shadow: 0 0 10px hsl(var(--accent));
+  }
+
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .gradient-secondary {
+    background: var(--gradient-secondary);
+  }
+
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .gradient-card {
+    background: var(--gradient-card);
+  }
+
+  .cyber-border {
+    border: 1px solid hsl(var(--border));
+    box-shadow: inset 0 0 10px hsl(var(--primary) / 0.1);
+  }
+
+  .cyber-button {
+    background: var(--gradient-card);
+    border: 1px solid hsl(var(--primary));
+    transition: all 0.3s ease;
+  }
+
+  .cyber-button:hover {
+    box-shadow: var(--shadow-glow-primary);
+    transform: translateY(-2px);
+  }
+
+  .parallax-slow {
+    transform: translateZ(-1px) scale(2);
+  }
+
+  .parallax-medium {
+    transform: translateZ(-2px) scale(3);
+  }
+
+  .parallax-fast {
+    transform: translateZ(-3px) scale(4);
+  }
+
+  .transform-gpu {
+    transform: translateZ(0);
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .bg-titlep1 { background-color: hsl(var(--titlep1)); }
+  .bg-titlep2 { background-color: hsl(var(--titlep2)); }
+  .bg-titlep3 { background-color: hsl(var(--titlep3)); }
+  .bg-titlep4 { background-color: hsl(var(--titlep4)); }
+  .bg-titlep5 { background-color: hsl(var(--titlep5)); }
+  .bg-titlep6 { background-color: hsl(var(--titlep6)); }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground overflow-x-hidden;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .game-button {
+    @apply px-6 py-3 rounded-lg font-mono uppercase tracking-wider text-sm text-black bg-cyan-50;
+    border: 1px solid hsl(var(--border));
+    transition: all 0.3s ease;
+  }
+
+  .game-button-primary {
+    @apply game-button border-primary hover:glow-primary text-black bg-cyan-50;
+  }
+
+  .game-button-secondary {
+    @apply game-button border-secondary hover:glow-secondary text-black bg-cyan-50;
+  }
+
+  .game-button-accent {
+    @apply game-button border-accent hover:glow-accent text-black bg-cyan-50;
+  }
+
+  .nav-item {
+    @apply relative px-4 py-2 text-foreground/80 hover:text-primary transition-all duration-300;
+  }
+
+  .nav-item::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+  }
+
+  .nav-item:hover::after {
+    @apply w-full;
+  }
+
+  .cyber-card {
+    @apply gradient-card border cyber-border rounded-xl p-6 relative overflow-hidden;
+  }
+
+  .cyber-card::before {
+    content: '';
+    @apply absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-primary to-transparent;
+  }
+
+  .skill-node {
+    @apply w-16 h-16 rounded-full bg-card border-2 border-muted flex items-center justify-center relative overflow-hidden transition-all duration-500 hover:border-primary hover:glow-primary cursor-pointer;
+  }
+
+  .skill-node.active {
+    @apply border-primary glow-primary;
+  }
+
+  .skill-node::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent opacity-0 transition-opacity duration-300;
+  }
+
+  .skill-node:hover::before {
+    @apply opacity-100;
+  }
+
+  .terminal-text {
+    @apply font-mono text-primary;
+  }
+
+  .terminal-cursor::after {
+    content: '|';
+    @apply animate-pulse text-primary;
+  }
+
+  /* Custom Keyframes for Cube Animations */
+  @keyframes floatSlow {
+    0%, 100% { 
+      transform: translateY(0px) translateX(0px) rotate(0deg); 
+    }
+    25% { 
+      transform: translateY(-15px) translateX(10px) rotate(3deg); 
+    }
+    50% { 
+      transform: translateY(-30px) translateX(-5px) rotate(-2deg); 
+    }
+    75% { 
+      transform: translateY(-15px) translateX(-10px) rotate(4deg); 
+    }
+  }
+
+  @keyframes cubeRotate {
+    0% { transform: rotateX(0deg) rotateY(0deg); }
+    25% { transform: rotateX(15deg) rotateY(90deg); }
+    50% { transform: rotateX(0deg) rotateY(180deg); }
+    75% { transform: rotateX(-15deg) rotateY(270deg); }
+    100% { transform: rotateX(0deg) rotateY(360deg); }
+  }
+
+  /* Custom scrollbar for thumbnail carousel */
+  .thumbnail-carousel::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .thumbnail-carousel::-webkit-scrollbar-track {
+    background-color: hsl(var(--background));
+    border: 1px solid hsl(var(--border));
+    border-radius: 4px;
+  }
+
+  .thumbnail-carousel::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, hsl(var(--primary)), hsl(var(--accent)));
+    border-radius: 4px;
+    border: 1px solid hsl(var(--primary) / 0.3);
+  }
+
+  .thumbnail-carousel::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(90deg, hsl(var(--primary) / 0.8), hsl(var(--accent) / 0.8));
+    box-shadow: 0 0 8px hsl(var(--primary) / 0.4);
+  }
+
+  .thumbnail-carousel {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--primary)) hsl(var(--background));
+  }
+}
