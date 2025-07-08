@@ -162,7 +162,7 @@ const CinematicCarousel = () => {
             <CarouselContent>
               {mediaItems.map((media, index) => (
                 <CarouselItem key={index} className="flex items-center justify-center">
-                  <div className="w-full h-[80vh] flex items-center justify-center bg-black/20 rounded-xl">
+                  <div className="w-full h-[80vh] flex items-center justify-center bg-black/0 rounded-xl">
                     {media.type === "video" ? (
                       <video 
                         controls 
