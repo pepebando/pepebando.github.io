@@ -9,7 +9,7 @@ const SpaceInterface = () => {
 
   const navigationItems = [{
     number: "01",
-    label: "Overview",
+    label: "About Me",
     active: activeTab === "01"
   }, {
     number: "02",
@@ -17,7 +17,7 @@ const SpaceInterface = () => {
     active: activeTab === "02"
   }, {
     number: "03",
-    label: "Discovery",
+    label: "Contact me",
     active: activeTab === "03"
   }];
   const rightPanelCards = [{
@@ -88,7 +88,7 @@ const SpaceInterface = () => {
   }];
   return <div className="min-h-screen bg-background p-8 px-[33px]">
       {/* Main Container */}
-      <div className="max-w-7xl mx-auto h-screen bg-container-bg rounded-3xl overflow-hidden relative">
+      <div className="max-w-8xl mx-auto h-screen bg-container-bg rounded-3xl overflow-hidden relative">
         
         {/* Top Navigation Bar */}
         <div className="absolute top-0 left-0 right-0 z-30 p-6">
