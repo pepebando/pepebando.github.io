@@ -9,7 +9,7 @@ const SpaceInterface = () => {
 
   const navigationItems = [{
     number: "01",
-    label: "About Me",
+    label: "Overview",
     active: activeTab === "01"
   }, {
     number: "02",
@@ -17,7 +17,7 @@ const SpaceInterface = () => {
     active: activeTab === "02"
   }, {
     number: "03",
-    label: "Contact me",
+    label: "Discovery",
     active: activeTab === "03"
   }];
   const rightPanelCards = [{
@@ -96,10 +96,10 @@ const SpaceInterface = () => {
         </div>
 
         {/* Main Content Grid */}
-        <div className="grid grid-cols-12 h-full">
+        <div className="flex flex-col md:grid md:grid-cols-12 h-full">
           
           {/* Left Sidebar */}
-          <div className="col-span-12 md:col-span-2 bg-sidebar-bg p-3 md:p-6 flex md:flex-col justify-center md:space-y-8 space-x-4 md:space-x-0 order-2 md:order-1">
+          <div className="md:col-span-2 bg-sidebar-bg p-3 md:p-6 flex md:flex-col justify-center md:space-y-8 space-x-4 md:space-x-0 order-2 md:order-1 min-h-[60px] md:min-h-full">
             {navigationItems.map(item => <div key={item.number} onClick={() => setActiveTab(item.number)} className={`flex flex-col items-center space-y-2 cursor-pointer group transition-all duration-300 ${item.active ? 'opacity-100' : 'opacity-60 hover:opacity-100'}`}>
                 <div className={`w-12 h-12 rounded-full flex items-center justify-center border-2 transition-all duration-300 ${item.active ? 'bg-nav-item-bg border-nav-item text-nav-item' : 'border-sidebar-text/30 text-sidebar-text hover:border-nav-item hover:text-nav-item'}`}>
                   <span className="text-sm font-bold">{item.number}</span>
@@ -109,7 +109,7 @@ const SpaceInterface = () => {
           </div>
 
           {/* Main Content Area */}
-          <div className="col-span-12 md:col-span-10 relative overflow-hidden order-1 md:order-2">
+          <div className="flex-1 md:col-span-10 relative overflow-hidden order-1 md:order-2">
             {activeTab === "02" ? (/* Cinematic Carousel */
           <CinematicCarousel />) : activeTab === "03" ? (/* Contact Form */
           <ContactForm />) : (/* Default Overview Content */
