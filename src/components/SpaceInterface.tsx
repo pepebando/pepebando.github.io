@@ -86,7 +86,7 @@ const SpaceInterface = () => {
     title: "CSS",
     image: "https://img.icons8.com/color/240/css3.png"
   }];
-  return <div className="h-screen bg-background md:p-8 md:px-[33px] px-[0]">
+  return <div className="h-[100vh] bg-background md:p-8 md:px-[33px] px-[0]">
       {/* Main Container */}
       <div className="max-w-8xl mx-auto h-screen bg-container-bg md:rounded-3xl overflow-hidden relative">
         
