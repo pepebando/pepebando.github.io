@@ -290,7 +290,7 @@ const CinematicCarousel = () => {
         loop: true
       }} className="w-full">
           <CarouselContent className="-ml-2 md:-ml-4">
-            {filteredProjects.map((project, index) => <CarouselItem key={project.id} className="pl-2 md:pl-4 basis-1/3 md:basis-1/6 py-2 md:py-5 px-[4px] md:px-[9px] mx-[8px] md:mx-[15px]">
+            {filteredProjects.map((project, index) => <CarouselItem key={project.id} className="pl-2 md:pl-4 basis-1/8s md:basis-1/8 py-2 md:py-5 px-[4px] md:px-[9px] mx-[8px] md:mx-[15px]">
                 <div className="flex flex-col items-center space-y-2 md:space-y-3 cursor-pointer transition-all duration-300 relative z-10" onClick={() => setCurrentIndex(index)}>
                   <div className={`w-20 md:w-32 h-16 md:h-24 bg-cover bg-center rounded-lg md:rounded-xl transition-all duration-300 border-2 ${index === currentIndex ? 'border-nav-item shadow-xl scale-105' : 'border-transparent hover:border-nav-item/30 hover:scale-102'}`} style={{
                 backgroundImage: `url(${project.image})`
