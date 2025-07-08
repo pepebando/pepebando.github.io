@@ -149,7 +149,7 @@ const SpaceInterface = () => {
                     {/* Technical Skills */}
                     <div className="mt-8">
                       <h2 className="text-xl md:text-2xl font-bold text-card-foreground mb-6 text-center">Technical Skills</h2>
-                      <div className="grid grid-cols-3 md:grid-cols-7 gap-2 md:gap-4">
+                      <div className="grid grid-cols-5 md:grid-cols-7 gap-2 md:gap-4">
                         {skills.map((skill, index) => <div key={index} className="flex flex-col items-center space-y-2 group cursor-pointer">
                             <div className="w-8 md:w-12 h-8 md:h-12 bg-card/80 rounded-lg p-1 md:p-2 group-hover:bg-nav-item/20 transition-colors duration-300 flex items-center justify-center">
                               <img src={skill.image} alt={skill.title} className="w-6 md:w-8 h-6 md:h-8 object-contain" />
