@@ -9,7 +9,7 @@ const SpaceInterface = () => {
 
   const navigationItems = [{
     number: "01",
-    label: "Overview",
+    label: "About me",
     active: activeTab === "01"
   }, {
     number: "02",
@@ -17,7 +17,7 @@ const SpaceInterface = () => {
     active: activeTab === "02"
   }, {
     number: "03",
-    label: "Discovery",
+    label: "Contact me",
     active: activeTab === "03"
   }];
   const rightPanelCards = [{
