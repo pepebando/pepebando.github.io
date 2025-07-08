@@ -1,7 +1,7 @@
-import Portfolio from '@/components/Portfolio';
+import SpaceInterface from "@/components/SpaceInterface";
 
 const Index = () => {
-  return <Portfolio />;
+  return <SpaceInterface />;
 };
 
 export default Index;
