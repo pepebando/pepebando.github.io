@@ -88,7 +88,7 @@ const SpaceInterface = () => {
   }];
   return <div className="min-h-screen bg-background md:p-8 md:px-[33px] px-[0]">
       {/* Main Container */}
-      <div className="max-w-8xl mx-auto h-screen bg-container-bg rounded-3xl overflow-hidden relative">
+      <div className="max-w-8xl mx-auto h-screen bg-container-bg md:rounded-3xl overflow-hidden relative">
         
         {/* Top Navigation Bar */}
         <div className="absolute top-0 left-0 right-0 z-30 p-6">
