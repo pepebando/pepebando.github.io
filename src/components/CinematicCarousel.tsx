@@ -162,7 +162,7 @@ const CinematicCarousel = () => {
             <CarouselContent>
               {mediaItems.map((media, index) => (
                 <CarouselItem key={index} className="flex items-center justify-center">
-                  <div className="w-full h-[80vh] flex items-center justify-center bg-black/0 rounded-xl">
+                  <div className="w-full h-[80vh] flex justify-center bg-black/0 rounded-xl">
                     {media.type === "video" ? (
                       <video 
                         controls 
@@ -188,10 +188,9 @@ const CinematicCarousel = () => {
         {/* Project Info */}
         <div className="absolute bottom-6 left-6 text-white">
           <h2 className="text-2xl font-bold mb-2">{currentProject.title}</h2>
-          <div className="flex items-center space-x-4 text-sm opacity-80">
+          <div className="flex space-x-4 text-sm opacity-80">
             <span>{currentProject.year}</span>
-            <span>{currentProject.duration}</span>
-            <span>{currentProject.rating}</span>
+
           </div>
         </div>
       </div>;
@@ -213,10 +212,7 @@ const CinematicCarousel = () => {
             <span className="bg-nav-item text-accent-foreground text-xs px-3 py-1 rounded font-bold tracking-wider">
               {currentProject.subtitle}
             </span>
-            <div className="flex items-center space-x-1">
-              <Star className="w-4 h-4 text-nav-item fill-current" />
-              <span className="text-card-foreground/80 text-sm">Add to favorites</span>
-            </div>
+
           </div>
 
           {/* Main Title */}
@@ -237,8 +233,7 @@ const CinematicCarousel = () => {
               <span className="bg-nav-item text-accent-foreground text-xs px-2 py-1 rounded">
                 {currentProject.category}
               </span>
-              <span className="text-sm">{currentProject.duration}</span>
-              <span className="text-sm">{currentProject.genre}</span>
+
             </div>
 
             <p className="text-card-foreground/90 text-sm leading-relaxed max-w-md py-[7px]">
@@ -250,7 +245,7 @@ const CinematicCarousel = () => {
           <div className="flex items-center space-x-4 mt-4">
             <Button onClick={() => setShowGallery(true)} className="bg-nav-item hover:bg-nav-item/90 text-accent-foreground rounded-lg px-6 md:px-8 font-bold text-sm md:text-base py-[12px] md:py-[15px] my-[15px]">
               <Play className="w-4 md:w-5 h-4 md:h-5 mr-2" />
-              PLAY
+              VIEW
             </Button>
           </div>
 
