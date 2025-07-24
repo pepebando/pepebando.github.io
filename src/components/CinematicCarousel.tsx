@@ -155,34 +155,28 @@ const CinematicCarousel = () => {
 
         {/* Main Carousel Container */}
         <div className="h-full flex flex-col items-center justify-center p-4 md:p-8">
-          <Carousel opts={{
-            align: "center",
-            loop: true
-          }} className="w-full max-w-6xl mb-6">
-            <CarouselContent>
-              {mediaItems.map((media, index) => (
-                <CarouselItem key={index} className="flex items-center justify-center">
-                  <div className="w-full h-[60vh] md:h-[70vh] flex items-center justify-center bg-black/20 rounded-xl">
-                    {media.type === "video" ? (
-                      <video 
-                        controls 
-                        className="max-w-full max-h-full object-contain rounded-lg"
-                        src={media.src}
-                      />
-                    ) : (
-                      <img 
-                        src={media.src} 
-                        alt={media.alt} 
-                        className="max-w-full max-h-full object-contain rounded-lg"
-                      />
-                    )}
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious className="text-white border-white/30 hover:bg-white/20 left-4" />
-            <CarouselNext className="text-white border-white/30 hover:bg-white/20 right-4" />
-          </Carousel>
+          {/* Main Image Display */}
+          <div className="w-full max-w-6xl mb-6">
+            <div className="w-full h-[60vh] md:h-[70vh] flex items-center justify-center bg-black/20 rounded-xl">
+              {mediaItems[currentMediaIndex] && (
+                mediaItems[currentMediaIndex].type === "video" ? (
+                  <video 
+                    key={currentMediaIndex}
+                    controls 
+                    className="max-w-full max-h-full object-contain rounded-lg"
+                    src={mediaItems[currentMediaIndex].src}
+                  />
+                ) : (
+                  <img 
+                    key={currentMediaIndex}
+                    src={mediaItems[currentMediaIndex].src} 
+                    alt={mediaItems[currentMediaIndex].alt} 
+                    className="max-w-full max-h-full object-contain rounded-lg"
+                  />
+                )
+              )}
+            </div>
+          </div>
 
           {/* Thumbnail Navigation */}
           {mediaItems.length > 1 && (
