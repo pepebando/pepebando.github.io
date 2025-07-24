@@ -154,15 +154,15 @@ const CinematicCarousel = () => {
         </Button>
 
         {/* Main Carousel Container */}
-        <div className="h-full flex items-center justify-center p-8">
+        <div className="h-full flex flex-col items-center justify-center p-4 md:p-8">
           <Carousel opts={{
             align: "center",
             loop: true
-          }} className="w-full max-w-6xl">
+          }} className="w-full max-w-6xl mb-6">
             <CarouselContent>
               {mediaItems.map((media, index) => (
                 <CarouselItem key={index} className="flex items-center justify-center">
-                  <div className="w-full h-[80vh] flex justify-center bg-black/0 rounded-xl">
+                  <div className="w-full h-[60vh] md:h-[70vh] flex items-center justify-center bg-black/20 rounded-xl">
                     {media.type === "video" ? (
                       <video 
                         controls 
@@ -183,14 +183,48 @@ const CinematicCarousel = () => {
             <CarouselPrevious className="text-white border-white/30 hover:bg-white/20 left-4" />
             <CarouselNext className="text-white border-white/30 hover:bg-white/20 right-4" />
           </Carousel>
+
+          {/* Thumbnail Navigation */}
+          {mediaItems.length > 1 && (
+            <div className="w-full max-w-4xl">
+              <Carousel opts={{
+                align: "start",
+                loop: false,
+                dragFree: true
+              }} className="w-full">
+                <CarouselContent className="-ml-2">
+                  {mediaItems.map((media, index) => (
+                    <CarouselItem key={index} className="pl-2 basis-1/4 md:basis-1/6">
+                      <div 
+                        className={`aspect-video bg-cover bg-center rounded-lg cursor-pointer transition-all duration-300 border-2 ${
+                          index === currentMediaIndex 
+                            ? 'border-nav-item scale-105' 
+                            : 'border-white/20 hover:border-white/50'
+                        }`}
+                        style={{
+                          backgroundImage: media.type === "video" 
+                            ? `url(${media.src.replace(/\.[^/.]+$/, '')}.jpg)` 
+                            : `url(${media.src})`
+                        }}
+                        onClick={() => setCurrentMediaIndex(index)}
+                      />
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious className="text-white border-white/30 hover:bg-white/20 -left-4" />
+                <CarouselNext className="text-white border-white/30 hover:bg-white/20 -right-4" />
+              </Carousel>
+            </div>
+          )}
         </div>
 
         {/* Project Info */}
         <div className="absolute bottom-6 left-6 text-white">
           <h2 className="text-2xl font-bold mb-2">{currentProject.title}</h2>
-          <div className="flex space-x-4 text-sm opacity-80">
+          <div className="flex items-center space-x-4 text-sm opacity-80">
             <span>{currentProject.year}</span>
-
+            <span>{currentProject.duration}</span>
+            <span>{currentProject.rating}</span>
           </div>
         </div>
       </div>;
@@ -212,7 +246,10 @@ const CinematicCarousel = () => {
             <span className="bg-nav-item text-accent-foreground text-xs px-3 py-1 rounded font-bold tracking-wider">
               {currentProject.subtitle}
             </span>
-
+            <div className="flex items-center space-x-1">
+              <Star className="w-4 h-4 text-nav-item fill-current" />
+              <span className="text-card-foreground/80 text-sm">Add to favorites</span>
+            </div>
           </div>
 
           {/* Main Title */}
@@ -233,7 +270,8 @@ const CinematicCarousel = () => {
               <span className="bg-nav-item text-accent-foreground text-xs px-2 py-1 rounded">
                 {currentProject.category}
               </span>
-
+              <span className="text-sm">{currentProject.duration}</span>
+              <span className="text-sm">{currentProject.genre}</span>
             </div>
 
             <p className="text-card-foreground/90 text-sm leading-relaxed max-w-md py-[7px]">
@@ -245,7 +283,7 @@ const CinematicCarousel = () => {
           <div className="flex items-center space-x-4 mt-4">
             <Button onClick={() => setShowGallery(true)} className="bg-nav-item hover:bg-nav-item/90 text-accent-foreground rounded-lg px-6 md:px-8 font-bold text-sm md:text-base py-[12px] md:py-[15px] my-[15px]">
               <Play className="w-4 md:w-5 h-4 md:h-5 mr-2" />
-              VIEW
+              PLAY
             </Button>
           </div>
 
@@ -285,7 +323,7 @@ const CinematicCarousel = () => {
         loop: true
       }} className="w-full">
           <CarouselContent className="-ml-2 md:-ml-4">
-            {filteredProjects.map((project, index) => <CarouselItem key={project.id} className="pl-2 md:pl-4 basis-1/8s md:basis-1/8 py-2 md:py-5 px-[4px] md:px-[9px] mx-[8px] md:mx-[15px]">
+            {filteredProjects.map((project, index) => <CarouselItem key={project.id} className="pl-2 md:pl-4 basis-1/3 md:basis-1/6 py-2 md:py-5 px-[4px] md:px-[9px] mx-[8px] md:mx-[15px]">
                 <div className="flex flex-col items-center space-y-2 md:space-y-3 cursor-pointer transition-all duration-300 relative z-10" onClick={() => setCurrentIndex(index)}>
                   <div className={`w-20 md:w-32 h-16 md:h-24 bg-cover bg-center rounded-lg md:rounded-xl transition-all duration-300 border-2 ${index === currentIndex ? 'border-nav-item shadow-xl scale-105' : 'border-transparent hover:border-nav-item/30 hover:scale-102'}`} style={{
                 backgroundImage: `url(${project.image})`
